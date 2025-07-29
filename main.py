@@ -32,7 +32,7 @@ def main_card_keyboard_vericitify():
     kb_builder.adjust(1)
     return kb_builder.as_markup()
 
-TOKEN = os.getenv('TOKEN') 
+TOKEN = "8214591939:AAGZIUuNRntm9OPolorwYPPVqsdynBa1eb4"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
